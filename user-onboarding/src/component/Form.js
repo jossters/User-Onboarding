@@ -1,3 +1,4 @@
+import React from 'react'
 export default function Form(props) {
   const { values, submit, change, disabled, errors } = props;
 
@@ -56,7 +57,7 @@ export default function Form(props) {
               />
               </label> 
           </h4>
-          <button disabled={disabled}>Submit</button>
+          <button id='submitBtn' disabled={disabled}>Submit</button>
       </form>
   ) 
 }

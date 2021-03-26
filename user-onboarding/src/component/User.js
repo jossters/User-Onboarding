@@ -6,11 +6,9 @@ export default function Friend({ userDe }) {
   }
 
   return (
-    <div className='friend container'>
-      <h2>{userDe.name}</h2>
-      <p>Email: {userDe.email}</p>
-      <p>Password: Valid </p>
-      <p>Terms: Agreed </p>
+    <div className='user'>
+      <h2>{userDe.name} <br></br>
+      {userDe.email}</h2>
     </div>
   )
 }
